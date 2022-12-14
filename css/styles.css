@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+.sky{
+    background-color: rgb(237, 253, 255);
+    padding-top: 120px;
+}
+
+.div1{
+    background-color: rgb(170, 244, 177);
+    height: 500px;
+    width: 500px;
+    position: relative; /*  tengo que poner el elemento padre a 'relative' para que luego 
+                           la imagen hija se posicione de manera 'absolute' respecto a su padre(un <div>
+                           en este caso) ; sino se posiciona de manera absoluta respecto a la pantalla.   */
+    margin: 0 auto 0 auto;
+}
+
+.img-mountain{
+    height:500px;
+}
+
+.img_linkin{
+    height: 150px;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+
+.top-cloud{
+    height: 3.75em;
+
+    position: absolute;
+    right: 18em; 
+    top: 30px;  
+}
+
+
+.bottom-cloud{
+    height: 3.75em;
+    
+    position: absolute;
+    left: 18em;   
+    top: 310px;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+        /* 16px = 100% = 1em */     
+    /* font-size: 90px;  */
+    font-size: 4.4rem;
+    margin: 0;
+    color: #66BFBF;
+}
+
+.Angelo{
+    height: 220px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.0rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;     /*  para quitarle el subrayado por defecto que tienen los <a> tag */
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.skill-row{
+    width:50%;
+    margin: 80px auto 80px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer{
+    width: 25%;   /*  se refiere al 25% de su elemento padre  */
+    float: left;
+    margin-right: 30px;
+}
+
+.linkin-park-logo{
+    width: 25%;   /*  se refiere al 25% de su elemento padre  */
+    float: right;
+    margin-left: 30px;
+}
+
+.btn{
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #4e9e9e);
+  background-image: -moz-linear-gradient(top, #66BFBF, #4e9e9e);
+  background-image: -ms-linear-gradient(top, #66BFBF, #4e9e9e);
+  background-image: -o-linear-gradient(top, #66BFBF, #4e9e9e);
+  background-image: linear-gradient(to bottom, #66BFBF, #4e9e9e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    height: 150px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.contact-me{
+    line-height: 3.5;
+}
+
+.footer-link{
+    margin: 50px; 
+}
+
+.marca-registrada{
+    padding-top: 30px;
+    color: #EAF6F6;
+    font-size: 0.90rem;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 6px;
+    margin: 120px auto 50px auto;
+    color: #a1bcbc;
+}
+
+.programmer{
+    font-size: 2.0rem;
+}
+
+.skills{
+    margin-top: 100px;
+}
+
+.middle-container{
+    margin-top: 80px;
+}
+
+.about-me{
+    width: 550px;
+    margin: 0 auto 0 auto;
+    line-height: 2;
+}
+
+.get-in-touch{
+    height: 110px;
+}
